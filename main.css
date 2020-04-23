@@ -1,0 +1,14 @@
+body {
+	background-color : magenta;
+}
+td a, td {
+	text-decoration : none;
+	color : black;
+	background-color : lightblue;
+}
+td {
+	border : 1px solid black;
+}
+table {
+	border-collapse : collapse;
+}

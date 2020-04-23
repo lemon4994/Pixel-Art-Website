@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Pixel Art: Making Outlines</title>
+    <meta name="keywords" content="outlines, line, diagonal, angle, curve">
+    <meta name="description" content="Learn how to make a variety of lines using just pixels">
+    <meta name="author" content="Nicholas Chiarello">
+	<link rel="stylesheet" href="main.css">
+	<style>
+		p {
+			font-size : 125%;
+		}
+		body img {
+			border : 1px solid lightblue;
+		}
+		#CircleSquare {
+			background-image : url('graphics/circlesquare.png');
+			height : 80px;
+			width : 80px;
+		}
+		#CircleSquare:hover {
+			background-image : url('graphics/circlesquare.gif');
+			height : 80px;
+			width : 80px;
+		}
+		
+		#CurveExample {
+			background-image : url('graphics/circlesegment.png');
+			height : 104px;
+			width : 104px;
+		}
+		#CurveExample:hover {
+			background-image : url('graphics/circle.png');
+			height : 220px;
+			width : 216px;
+		}
+	</style>
+</head>
+<body>
+	<nav id="Top">
+		<table>
+			<tbody>
+				<tr>
+					<td style="background-color:magenta;border:none;"><h2 style="text-align:center;"><a href="assignment3.html" style="background-color:magenta;">How to create Pixel Art<br>and Animations</a></h2></td>
+					<td><a href="basics.html" style="font-size:200%;">Basic Information</a></td>
+					<td><a href="outlines.html" style="font-size:200%;">Making Outlines</a></td>
+					<td><a href="colouring.html" style="font-size:200%;">Colouring &amp; Shading</a></td>
+					<td><a href="advanced.html" style="font-size:200%;">Advanced Techniques</a></td>
+				</tr>
+			</tbody>	
+		</table>
+	</nav>
+	<main>
+		<h1>Outline Techniques</h1>
+		<h2>Lines</h2>
+		<img src="graphics/straightlines.png" alt="straight lines">
+		<p>Straight lines are very basic and simple, anyone can make one of these, even you. Pixel art is made of a lot of these lines, but you will not make very good art if you only use straight lines.</p>
+		<img src="graphics/diagonallines.png" alt="diagonal lines">
+		<p>If you connect multiple horizontal or vertical lines, you can create the illusion of a straight line going in a diagonal direction. You will be using these a lot in art, especially at larger sizes, so it is a good idea to practice and get a feeling of how many pixels each segment in a line should be.</p>
+		<p>It is also common to alternate the lengths of each segment in a diagonal line. This is trickier to use, but it allows you to create much more varied angles in the lines of your art. An example of this can be seen below.</p>
+		<img src="graphics/alternatelines.png" alt="lines with alternating segments">
+		
+		<h2>Angles</h2>
+		<p>Angles in pixel art are very difficult to convey outside of 8 directions. There are two types of angles, with four directions each, giving you 8 directions to work with.</p>
+		<p>The first type of angle lets you point in the four corners: top left; top right; bottom left; bottom right.</p>
+		<img src="graphics/tl.png" alt="top left"><img src="graphics/tr.png" alt="top right"><br><img src="graphics/bl.png" alt="bottom left"><img src="graphics/br.png" alt="bottom right">
+		<p>The second type of angle lets you point in the directions up, down, left, and right.</p>
+		<img src="graphics/u.png" alt="up"><img src="graphics/d.png" alt="down"><img src="graphics/l.png" alt="left"><img src="graphics/r.png" alt="right">
+		<p>Due to the square nature of pixel art, those are the eight angles you can use in your art. Any other direction would require some very creative thinking to achieve.</p>
+		
+		<h2>Curves</h2>
+		<p>As shown in the previous lesson, there are no real curves in pixel art, only the illusion of curves. This simple trick is simply applying the knowledge of how to make diagonal lines to our knowledge of how circles work.</p>
+		<p>A circle in pixel art is simply multiple lines and dots arranged so that it looks round. A good way to practice this is to draw a square, but as you approach the corners, bend inwards while drawing the line segments shorter and shorter. Here is an example.</p>
+		<figure>
+			<div id="CircleSquare"></div>
+			<figcaption>Mouse over images to see animations</figcaption>
+		</figure>
+		<p>When you get the hang of how circles work when they are made of squares, drawing curves becomes much easier. Every curve becomes as simple as a circle if you look at each curve as if it was <i>a small part</i> of a larger circle.</p>
+		<p>Take a good look at this curve and then mouse over it to see how it is a piece of a larger circle.</p>
+		<div id="CurveExample"></div>
+		<p>And there you have it, curves in pixel art.</p>
+		
+		<h2>Putting it together (an example)</h2>
+		<p>To end off this lesson, here is a tentacle I created to show what it is like to use curves properly and what it is like to not use curves.</p>
+		<div>
+			<figure style="float:left;margin:0px;margin-right:10px;">
+				<img src="graphics/tentacle.png" alt="tentacle">
+				<figcaption>A tentacle drawn with everything learned here.</figcaption>
+			</figure>
+			<figure>
+				<img src="graphics/tentaclebad.png" alt="tentacle but bad">
+				<figcaption>The same tentacle but without proper curves and points.</figcaption>
+			</figure>
+		</div>
+		
+		<br><a href="basics.html" style="border:1px solid grey;background-color:lightgrey;margin:2px;text-decoration:none;color:black;">Previous Lesson</a>
+		<a href="#Top" style="border:1px solid grey;background-color:lightgrey;margin:2px;text-decoration:none;color:black;">Return to Top</a>
+		<a href="colouring.html" style="border:1px solid grey;background-color:lightgrey;margin:2px;text-decoration:none;color:black;">Next Lesson</a><br>
+			
+	</main>
+	<br>
+<script src="https://my.gblearn.com/js/loadscript.js"></script>
+</body>
+</html>

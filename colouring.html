@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Pixel Art: Colouring & Shading</title>
+    <meta name="keywords" content="colouring, shading, palette, flat, round, texture">
+    <meta name="description" content="Learn how to colour and shade objects of different shapes, as well as how light and shadow works.">
+    <meta name="author" content="Nicholas Chiarello">
+	<link rel="stylesheet" href="main.css">
+	<style>
+		p {
+			font-size : 125%;
+		}
+		body img {
+			border : 1px solid lightblue;
+		}
+		#pu255 {
+			background-image : url('graphics/pu255.png');
+			height : 436px;
+			width : 424px;
+		}
+		#pu255:hover {
+			background-image : url('graphics/pu255.gif');
+			height : 436px;
+			width : 424px;
+		}
+	</style>
+</head>
+<body>
+	<nav id="Top">
+		<table>
+			<tbody>
+				<tr>
+					<td style="background-color:magenta;border:none;"><h2 style="text-align:center;"><a href="assignment3.html" style="background-color:magenta;">How to create Pixel Art<br>and Animations</a></h2></td>
+					<td><a href="basics.html" style="font-size:200%;">Basic Information</a></td>
+					<td><a href="outlines.html" style="font-size:200%;">Making Outlines</a></td>
+					<td><a href="colouring.html" style="font-size:200%;">Colouring &amp; Shading</a></td>
+					<td><a href="advanced.html" style="font-size:200%;">Advanced Techniques</a></td>
+				</tr>
+			</tbody>	
+		</table>
+	</nav>
+	<main>
+	<h1>Colouring & Shading</h1>
+	<h2>Colour Palettes</h2>
+	<p>First things first, to colour an object (and shade it) you will need to know what colour you want it to be. Let's start an example with a machine I sprited and coloured in with basic colours.</p>
+	<img src="graphics/pu255-simple-shading.png" alt="unshaded mech">
+	<p>A good tip I'd like to give is to use an extra layer and colour in the sprite you make with the fill tool first, when you have the whole thing coloured like this it is easy to see if you like the colour scheme before getting too much work done.</p>
+	<p>Now, when shading, you create a colour palette for shading, keep in mind two things: Light causes both shadows, and bright spots. So, to begin, get the main colours for your sprite, mine are blue and grey, and create a strip of colours for each one, with different shades of the colour. Here is my example:</p>
+	<img src="graphics/palettes.png" alt="colour palette for mech"	>
+	<p>Now that you have the shades you will use, let's learn how to use them.</p>
+	
+	<h2>Shading Flat Objects</h2>
+	<p>Shading is relatively straightforward when the object that you are shading is flat, such as a cube, or a building, or a desk. Simply picture a light source that is pointing at the object.</p>
+	<p>The face that is directly facing the light will be the brightest shade, the face that is facing away from the light will get the darkest shade. It's as simple as that to understand the basics of shading.</p>
+	<img src="graphics/flatshading.png" alt="shaded box">
+	<p>You can also get more complex with your shading depending on the texture of your object. There are lots of different ways to shade different textures, but as an example here is a very shiny reflective box:</p>
+	<img src="graphics/shinyshading.png" alt="the same box but shinier">
+	<h2>Shading Round Objects</h2>
+	<p>Shading a round object follows the same principles as shading flat ones, but with some differences. You will still obviously be putting the the lightest shade towards the light source and the darkest shade away from it.</p>
+	<p>Since the object is round, the shade that serves as the highlight would also be circular, and the other shades will ripple around it in order from lightest to darkest. After the equator line, the light will not reach it and so the rest of the object remains the same shade as the equator.</p>
+	<img src="graphics/sphereshading.png" alt="shaded sphere">
+	<p>If you'd like to get more technical and realistic, the very opposite end of the light source is slightly brighter than the equator due to reflected light, but it is not important at the small scale that pixel art usually is.</p>
+	<br><p>Now that you know how to shade both round and flat objects, you can use these skills to shade more complex shapes by breaking them down into round and flat shapes.</p>
+	<p>Here is my robot art from before, this time shaded using the colour palette and techniques learned here</p>
+	<div id="pu255"></div>
+	<p>One last thing to keep in mind is that no two people will make pixel art the same way, otherwise art would be boring. This is a good way to learn to start making art, but it is a good idea to experiment with different ways of drawing lines, or your own way of colouring and shading. Make your own style and have fun.</p>
+	
+	<br><a href="outlines.html" style="border:1px solid grey;background-color:lightgrey;margin:2px;text-decoration:none;color:black;">Previous Lesson</a>
+	<a href="#Top" style="border:1px solid grey;background-color:lightgrey;margin:2px;text-decoration:none;color:black;">Return to Top</a>
+	<a href="advanced.html" style="border:1px solid grey;background-color:lightgrey;margin:2px;text-decoration:none;color:black;">Next Lesson</a><br>
+	
+	</main>
+	<br>
+<script src="https://my.gblearn.com/js/loadscript.js"></script>
+</body>
+</html>

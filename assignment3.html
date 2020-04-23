@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Pixel Art</title>
+    <meta name="keywords" content="pixel art, learning, outlines, colouring, animating">
+    <meta name="description" content="Welcome to the homepage to my short intro to pixel art and animation">
+    <meta name="author" content="Nicholas Chiarello">
+	<link rel="stylesheet" href="main.css">
+	<style>
+		div.section {
+			border : 2px solid blue;
+			border-radius : 15px 15px 15px 15px;
+			margin : 15px;
+			padding : 10px;
+			background-color : lightblue;
+		}
+		p {
+			font-size : 400%;
+			margin : 6px;
+		}
+		a {
+			text-decoration : none;
+			color : black;
+		}
+		#BasicsIcon {
+			background-image : url('graphics/basicsicon.png');
+			float : left;
+			height : 40px;
+			width : 40px;
+		}
+		#BasicsIcon:hover {
+			background-image : url('graphics/basicsicon.gif');
+			height : 40px;
+			width : 40px;
+		}
+		
+		#OutlinesIcon {
+			background-image : url('graphics/outlineicon.png');
+			float : left;
+			height : 95px;
+			width : 95px;
+		}
+		#OutlinesIcon:hover {
+			background-image : url('graphics/outlineicon.gif');
+			height : 95px;
+			width : 95px;
+		}
+		
+		#ColorIcon {
+			background-image : url('graphics/colouricon.png');
+			float : left;
+			height : 95px;
+			width : 95px;
+		}
+		#ColorIcon:hover {
+			background-image : url('graphics/colouricon.gif');
+			height : 95px;
+			width : 95px;
+		}
+		
+		#AdvancedIcon {
+			background-image : url('graphics/knight.png');
+			float : left;
+			height : 68px;
+			width : 68px;
+		}
+		#AdvancedIcon:hover {
+			background-image : url('graphics/knightsmall.gif');
+			height : 68px;
+			width : 68px;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<table>
+			<tbody>
+				<tr>
+					<td style="background-color:magenta;border:none;"><h2 style="text-align:center;"><a href="assignment3.html" style="background-color:magenta;">How to create Pixel Art<br>and Animations</a></h2></td>
+					<td><a href="basics.html" style="font-size:200%;">Basic Information</a></td>
+					<td><a href="outlines.html" style="font-size:200%;">Making Outlines</a></td>
+					<td><a href="colouring.html" style="font-size:200%;">Colouring &amp; Shading</a></td>
+					<td><a href="advanced.html" style="font-size:200%;">Advanced Techniques</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</nav>
+	<main>
+		<h1>Please select from a category below</h1>
+		<div class="section" id="basics">
+		<a href="basics.html">
+		<div id="BasicsIcon"></div>
+		<p>Basic Information</p></a></div>
+		
+		<div class="section" id="outlines">
+		<a href="outlines.html">
+		<div id="OutlinesIcon"></div>
+		<p>Making Outlines</p></a></div>
+		
+		<div class="section" id="colour">
+		<a href="colouring.html">
+		<div id="ColorIcon"></div>
+		<p>Colouring & Shading</p></a></div>
+		
+		<div class="section" id="advanced">
+		<a href="advanced.html">
+		<div id="AdvancedIcon"></div>
+		<p>Advanced Techniques</p></a></div>
+	</main>
+
+<script src="https://my.gblearn.com/js/loadscript.js"></script>
+</body>
+</html>
